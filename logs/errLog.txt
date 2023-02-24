@@ -1,0 +1,2 @@
+20230223	16:23:11	33057ddf-6325-4554-83ed-3f013824398a	TypeError: authHeader?.startsWIth is not a function
+20230223	16:23:59	a43c620e-2e01-40fd-86db-ca3c5187af76	TypeError: authHeader?.startsWIth is not a function
