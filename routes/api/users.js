@@ -6,6 +6,8 @@ const verifyRoles = require('../../middleware/verifyRoles')
 
 router.route('/')
     .get(verifyRoles(ROLES_LIST.Admin), usersController.getAllUsers)
+    //test get users without role checking
+    //.get(usersController.getAllUsers)
     .delete(verifyRoles(ROLES_LIST.Admin), usersController.deleteUser);
 
 router.route('/:id')
